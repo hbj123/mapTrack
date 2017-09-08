@@ -1,0 +1,28 @@
+//
+//  PrefixHeader.pch
+//  MapTracking
+//
+//  Created by hbj on 2017/9/1.
+//  Copyright © 2017年 保健. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+/* 使用高德地图API，请注册Key */
+#define APIKey @"757745b57c7f73c1d14040c39121137c"
+#define DefaultLocationTimeout  6
+#define DefaultReGeocodeTimeout 3
+#define kUserID @"my-name-2"
+
+
+#import <AMapFoundationKit/AMapFoundationKit.h>
+#import <AMapLocationKit/AMapLocationKit.h>
+#import <AMapSearchKit/AMapSearchKit.h>
+#import <MAMapKit/MAMapKit.h>
+#import "ErrorInfoUtility.h"
+
+#endif /* PrefixHeader_pch */
