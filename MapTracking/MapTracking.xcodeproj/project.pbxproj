@@ -36,6 +36,10 @@
 		03016A6F1F59556C0032CA5B /* running_record.json in Resources */ = {isa = PBXBuildFile; fileRef = 03016A6E1F59556C0032CA5B /* running_record.json */; };
 		03016A721F59600A0032CA5B /* ErrorInfoUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 03016A711F59600A0032CA5B /* ErrorInfoUtility.m */; };
 		034480451F5F872E00E33DF6 /* Lo_SystemRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 034480441F5F872E00E33DF6 /* Lo_SystemRequest.m */; };
+		034A55761F6A7FAB00EBE32A /* Tracking.m in Sources */ = {isa = PBXBuildFile; fileRef = 034A55751F6A7FAB00EBE32A /* Tracking.m */; };
+		034A557A1F6A83B300EBE32A /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = 034A55771F6A83B300EBE32A /* ball.png */; };
+		034A557B1F6A83B300EBE32A /* ball@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 034A55781F6A83B300EBE32A /* ball@2x.png */; };
+		034A557C1F6A83B300EBE32A /* GuGong.tracking in Resources */ = {isa = PBXBuildFile; fileRef = 034A55791F6A83B300EBE32A /* GuGong.tracking */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -101,6 +105,11 @@
 		03016A711F59600A0032CA5B /* ErrorInfoUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ErrorInfoUtility.m; sourceTree = "<group>"; };
 		034480431F5F872E00E33DF6 /* Lo_SystemRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lo_SystemRequest.h; sourceTree = "<group>"; };
 		034480441F5F872E00E33DF6 /* Lo_SystemRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lo_SystemRequest.m; sourceTree = "<group>"; };
+		034A55741F6A7FAB00EBE32A /* Tracking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tracking.h; sourceTree = "<group>"; };
+		034A55751F6A7FAB00EBE32A /* Tracking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tracking.m; sourceTree = "<group>"; };
+		034A55771F6A83B300EBE32A /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball.png; sourceTree = "<group>"; };
+		034A55781F6A83B300EBE32A /* ball@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ball@2x.png"; sourceTree = "<group>"; };
+		034A55791F6A83B300EBE32A /* GuGong.tracking */ = {isa = PBXFileReference; lastKnownFileType = file; path = GuGong.tracking; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +178,7 @@
 				03016A711F59600A0032CA5B /* ErrorInfoUtility.m */,
 				034480431F5F872E00E33DF6 /* Lo_SystemRequest.h */,
 				034480441F5F872E00E33DF6 /* Lo_SystemRequest.m */,
+				034A55731F6A7FAB00EBE32A /* Tracking */,
 				03016A511F590F960032CA5B /* 高德地图api */,
 				03016A411F590ADD0032CA5B /* Controller */,
 				03016A111F58FD580032CA5B /* AppDelegate.h */,
@@ -253,6 +263,18 @@
 				03016A5D1F5930640032CA5B /* JavaScriptCore.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		034A55731F6A7FAB00EBE32A /* Tracking */ = {
+			isa = PBXGroup;
+			children = (
+				034A55771F6A83B300EBE32A /* ball.png */,
+				034A55781F6A83B300EBE32A /* ball@2x.png */,
+				034A55791F6A83B300EBE32A /* GuGong.tracking */,
+				034A55741F6A7FAB00EBE32A /* Tracking.h */,
+				034A55751F6A7FAB00EBE32A /* Tracking.m */,
+			);
+			path = Tracking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -371,9 +393,12 @@
 			files = (
 				03016A1E1F58FD580032CA5B /* LaunchScreen.storyboard in Resources */,
 				03016A1B1F58FD580032CA5B /* Assets.xcassets in Resources */,
+				034A557A1F6A83B300EBE32A /* ball.png in Resources */,
 				03016A571F590F960032CA5B /* AMap.bundle in Resources */,
 				03016A191F58FD580032CA5B /* Main.storyboard in Resources */,
 				03016A6F1F59556C0032CA5B /* running_record.json in Resources */,
+				034A557B1F6A83B300EBE32A /* ball@2x.png in Resources */,
+				034A557C1F6A83B300EBE32A /* GuGong.tracking in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,6 +423,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				034A55761F6A7FAB00EBE32A /* Tracking.m in Sources */,
 				03016A721F59600A0032CA5B /* ErrorInfoUtility.m in Sources */,
 				03016A4D1F590E450032CA5B /* AroundSearchViewController.m in Sources */,
 				03016A161F58FD580032CA5B /* ViewController.m in Sources */,
